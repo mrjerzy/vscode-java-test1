@@ -13,9 +13,6 @@ public class SucherTest {
         s.hinzufuegen(new String(""));
     }
 
-    /** 
-     * Teste ob 
-     */
     @Test
     public void testHinzufuegenNoException() {
         Sucher s = new Sucher();
