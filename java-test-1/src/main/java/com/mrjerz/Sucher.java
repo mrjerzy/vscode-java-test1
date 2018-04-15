@@ -33,4 +33,15 @@ public class Sucher {
     public int size(){
         return liste.size(); 
     }
+
+    @Override
+    public String toString(){
+        String output = ""; 
+        if (liste.size() > 0) {
+            for(String element : liste){
+                output = output.concat(element + "\n");
+            }   
+        }
+        return output; 
+    }
 }
