@@ -15,6 +15,9 @@ public class Sucher {
         liste = new ArrayList<String>(); 
     }
 
+    /** 
+    * Mit der Funktion hinzufügen werden neue Elemente der sucherliste hinzugefügt 
+    */ 
     public void hinzufuegen(String s) throws IllegalArgumentException{
         if (s.isEmpty()) {
             throw new IllegalArgumentException("String may not be empty!"); 
